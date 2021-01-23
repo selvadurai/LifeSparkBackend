@@ -43,7 +43,7 @@ const storage = multer.diskStorage({
 var db;
 
 // Connect to the database before starting the application server.
-mongodb.MongoClient.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/Test", function (err, client) {
+mongodb.MongoClient.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/LifeSpark", function (err, client) {
   if (err) {
     console.log(err);
     process.exit(1);
