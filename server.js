@@ -7,7 +7,6 @@ const multer = require('multer');
 const path = require('path');
 
 
-var CONTACTS_COLLECTION = "Girls_Approached_By_Year"
 var GOALS = "Goals"
 var VISION="Vision"
 var HABITS="Habits"
